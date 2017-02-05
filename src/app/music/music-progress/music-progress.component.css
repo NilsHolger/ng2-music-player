@@ -1,0 +1,28 @@
+.progress{
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+.progress progress[value] {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 390px;
+  height: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.progress progress[value]::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.progress progress[value]::-webkit-progress-value {
+  background-color: rgb(24,107,160);
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}

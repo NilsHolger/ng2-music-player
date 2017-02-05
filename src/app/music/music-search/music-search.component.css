@@ -1,0 +1,18 @@
+.truncate {
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artwork{
+  width:32px;
+  display:inline-block;
+  margin:5px 0 2px 5px;
+}
+
+.text {
+  font-size:18px;
+  float:right;
+  margin:10px 10px 0 0;
+}
